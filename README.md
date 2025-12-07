@@ -9,7 +9,7 @@ Processes nested JSON orders from S3, flattens the data structure, and stores it
 ## Architecture
 
 ```
-S3 (JSON) → Lambda → Flatten Data → Parquet → S3 (Data Lake) → Glue Crawler
+S3 (JSON) → Lambda → Flatten Data → Parquet → S3 (Data Lake) → Glue Crawler → AWS Athena
 ```
 
 ## Features
