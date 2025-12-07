@@ -1,4 +1,4 @@
-# Orders ETL Pipeline
+# AWS Serverless ETL Pipeline
 
 A serverless ETL pipeline on AWS that transforms JSON order data into Parquet format for analytics.
 
@@ -20,4 +20,3 @@ S3 (JSON) → Lambda → Flatten Data → Parquet → S3 (Data Lake) → Glue Cr
 - **Automated Cataloging** - AWS Glue Crawler updates metadata
 - **Timestamp Versioning** - Track processed files by date/time
 
-```
