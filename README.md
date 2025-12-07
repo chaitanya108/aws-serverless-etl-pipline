@@ -21,7 +21,3 @@ S3 (JSON) → Lambda → Flatten Data → Parquet → S3 (Data Lake) → Glue Cr
 - **Timestamp Versioning** - Track processed files by date/time
 
 ```
-
-## License
-
-MIT License
